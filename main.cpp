@@ -247,7 +247,7 @@ int main() {
 		glUniform1i(uniform_mandle_steps, steps);
 		glUniform1f(uniform_mandle_time, animTime / 10.0);
 
-		//subScreen.draw();
+		subScreen.draw();
 
 		glfwSwapBuffers(win); // Swap the back render buffer with the front buffer to display the render.
     	glfwPollEvents(); // Process any incoming events 
